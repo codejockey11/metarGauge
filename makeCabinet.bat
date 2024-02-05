@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\SimObject Creation Kit\Cabdir SDK\cabdir" /BATCH /V "C:\Users\Steve\Documents\Visual Studio 2010\Projects\metarGauge\metarGauge" "C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X\Gauges\metarGauge.cab"

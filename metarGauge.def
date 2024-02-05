@@ -1,0 +1,5 @@
+LIBRARY	"metarGauge"
+EXPORTS
+dllStart
+dllStop
+Panels DATA

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document
+        Type="AceXML"
+        version="1,0"
+        id="metarGauge">
+    <Descr>AceXML Document</Descr>
+    <Filename>metarGauge.xml</Filename>
+    <SimGauge.Gauge id="Gauge" ArtDirectory="C:\Users\Steve\Documents\Visual Studio 2010\Projects\metarGauge\metarGauge">
+        <FloatPosition>0.000,0.000</FloatPosition>
+        <Size>400,100</Size>
+        <Element id="BackgroundImage">
+            <FloatPosition>0.000,0.000</FloatPosition>
+            <Image id="Image" Name="metarBezel.bmp">
+                <Transparent>True</Transparent>
+                <Bright>True</Bright>
+            </Image>
+        </Element>
+        <Element id="ICAOInput">
+            <FloatPosition>10.000,10.000</FloatPosition>
+            <Element id="Element">
+                <FloatPosition>0.000,0.000</FloatPosition>
+                <Element id="Element">
+                    <FloatPosition>0.000,0.000</FloatPosition>
+                    <GaugeText id="GaugeText">
+                        <Bold>True</Bold>
+                        <Bright>True</Bright>
+                        <FontFace>Lucida Console</FontFace>
+                        <FontHeight>14</FontHeight>
+                        <GaugeString>%((C:METARGAUGE:ICAO))%!s!</GaugeString>
+                        <Size>40,20</Size>
+                        <Transparent>True</Transparent>
+                    </GaugeText>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>0.000,14.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>0.000,30.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+            </Element>
+            <Element id="Element">
+                <FloatPosition>10.000,14.000</FloatPosition>
+                <Element id="Element">
+                    <FloatPosition>0.000,0.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>0.000,16.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+            </Element>
+            <Element id="Element">
+                <FloatPosition>20.000,14.000</FloatPosition>
+                <Element id="Element">
+                    <FloatPosition>0.000,0.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>0.000,16.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+            </Element>
+            <Element id="Element">
+                <FloatPosition>30.000,14.000</FloatPosition>
+                <Element id="Element">
+                    <FloatPosition>0.000,0.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>0.000,16.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+                <Element id="Element">
+                    <FloatPosition>10.000,0.000</FloatPosition>
+                    <Rectangle id="Rectangle">
+                        <LineWidth>1</LineWidth>
+                        <Bright>True</Bright>
+                        <Width>10</Width>
+                        <Height>10</Height>
+                        <LineColor>white</LineColor>
+                        <FillColor>green</FillColor>
+                    </Rectangle>
+                </Element>
+            </Element>
+        </Element>
+        <Element id="METARString">
+            <FloatPosition>70.000,10.000</FloatPosition>
+            <GaugeText id="GaugeText">
+                <Bold>True</Bold>
+                <Bright>True</Bright>
+                <FontColor>yellow</FontColor>
+                <FontFace>Lucida Console</FontFace>
+                <FontHeight>14</FontHeight>
+                <GaugeString>%((C:METARGAUGE:METAR))%!s!</GaugeString>
+                <Multiline>True</Multiline>
+                <Size>320,100</Size>
+                <Transparent>True</Transparent>
+            </GaugeText>
+        </Element>
+        <MouseArea id="MouseArea">
+            <FloatPosition>0.000,0.000</FloatPosition>
+            <Size>400,100</Size>
+            <MouseArea id="MouseAreaICAO1Up">
+                <FloatPosition>10.000,26.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>UpArrow</CursorType>
+                <MouseClick id="MouseClickICAO1Up">
+                    <Script>(C:METARGAUGE:ICAO1) 1 + (&gt;C:METARGAUGE:ICAO1)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO2Up">
+                <FloatPosition>20.000,26.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>UpArrow</CursorType>
+                <MouseClick id="MouseClickICAO2Up">
+		    <Script>(C:METARGAUGE:ICAO2) 1 + (&gt;C:METARGAUGE:ICAO2)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO3Up">
+                <FloatPosition>30.000,26.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>UpArrow</CursorType>
+                <MouseClick id="MouseClickICAO3Up">
+                    <Script>(C:METARGAUGE:ICAO3) 1 + (&gt;C:METARGAUGE:ICAO3)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO4Up">
+                <FloatPosition>40.000,26.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>UpArrow</CursorType>
+                <MouseClick id="MouseClickICAO4Up">
+                    <Script>(C:METARGAUGE:ICAO4) 1 + (&gt;C:METARGAUGE:ICAO4)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO1Dn">
+                <FloatPosition>10.000,40.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>DownArrow</CursorType>
+                <MouseClick id="MouseClickICAO1Dn">
+                    <Script>(C:METARGAUGE:ICAO1) 1 - (&gt;C:METARGAUGE:ICAO1)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO2Dn">
+                <FloatPosition>20.000,40.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>DownArrow</CursorType>
+                <MouseClick id="MouseClickICAO2Dn">
+                    <Script>(C:METARGAUGE:ICAO2) 1 - (&gt;C:METARGAUGE:ICAO2)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO3Dn">
+                <FloatPosition>30.000,40.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>DownArrow</CursorType>
+                <MouseClick id="MouseClickICAO3Dn">
+                    <Script>(C:METARGAUGE:ICAO3) 1 - (&gt;C:METARGAUGE:ICAO3)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaICAO4Dn">
+                <FloatPosition>40.000,40.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>DownArrow</CursorType>
+                <MouseClick id="MouseClickICAO4Dn">
+                    <Script>(C:METARGAUGE:ICAO4) 1 - (&gt;C:METARGAUGE:ICAO4)</Script>
+                    <ClickRepeat>True</ClickRepeat>
+                </MouseClick>
+            </MouseArea>
+            <MouseArea id="MouseAreaGetMETAR">
+                <FloatPosition>50.000,26.000</FloatPosition>
+                <Size>10,10</Size>
+                <CursorType>Hand</CursorType>
+                <MouseClick id="MouseClickGetMETAR">
+                    <Script>(C:METARGAUGE:GETMETAR)</Script>
+                </MouseClick>
+            </MouseArea>
+        </MouseArea>
+    </SimGauge.Gauge>
+</SimBase.Document>
